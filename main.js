@@ -33,7 +33,7 @@ function myalert(){
 
 const img = document.createElement("img")
 
-img.src = "img/me.jpg";
+img.src = "img/me.JPG";
 img.style.width = "200px";
 
 document.getElementById("mydiv").appendChild(img);
