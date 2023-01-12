@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="mydiv"></div>
+    <h1>Calculator</h1>
+    <form action="">
+        <label for="">กรุณากรอกตัวเลข : <input type="text" id="num1"></label>
+        <label for="">กรุณากรอกตัวเลข : <input type="text" id="num2"></label>
+        <button type="button" id="calculator1">+</button>
+        <button type="button" id="calculator2">-</button>
+        <button type="button" id="calculator3">*</button>
+        <button type="button" id="calculator4">/</button>
+        <button type="button" onclick="myalert()">ALERT</button><br>
+
+       
+        <label for="">Weight : <input type="text" id="weight"></label>
+        <label for="">Height : <input type="text" id="height"></label>
+        <button type="button" onclick="calculateBMI()">BMI</button>
+    </form>
+    <p id="result"></p>
+    <script src="main.js"></script>
+</body>
+</html>

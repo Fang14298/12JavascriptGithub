@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color:cadetblue;
+}
+button{
+    background-color: antiquewhite;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+}
+#mydiv{
+    text-align: center;
+}
